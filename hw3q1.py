@@ -22,3 +22,11 @@ If you have a function, make sure the function is called and runs.
 The goal of this note is to ensure that all code in your Python file runs smoothly and that is has been tested.
 
 '''
+customer_ids = ["C001", "C002", "C003", "C002", "C001", "C004"]
+
+#Python script to remove duplicates and display the unique customer IDs.
+customer_id = list(dict.fromkeys(customer_ids))
+
+
+customer_id_set = set(customer_id)
+print(customer_id_set)
